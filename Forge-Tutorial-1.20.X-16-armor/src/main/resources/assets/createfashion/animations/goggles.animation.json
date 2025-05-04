@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"goggles.spin": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"Gear1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, 0, 360]
+						}
+					}
+				},
+				"Gear2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 360]
+						},
+						"10.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"goggles.crouch": {
+			"loop": true,
+			"animation_length": 10,
+			"bones": {
+				"Gear1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, 0, -360]
+						}
+					}
+				},
+				"Gear2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -360]
+						},
+						"10.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

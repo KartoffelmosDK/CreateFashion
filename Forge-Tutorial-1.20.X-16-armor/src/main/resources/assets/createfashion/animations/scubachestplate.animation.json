@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"scubachestplate": {
+			"loop": true,
+			"animation_length": 0.375,
+			"bones": {
+				"arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -42.08]
+						},
+						"0.1667": {
+							"vector": [0, 0, -55]
+						},
+						"0.3333": {
+							"vector": [0, 0, -42.08]
+						}
+					}
+				}
+			}
+		},
+		"scubachestplater": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 360]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
